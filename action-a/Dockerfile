@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="purple"
 
 LABEL "repository"="http://github.com/octocat/hello-world"
 LABEL "homepage"="http://github.com/actions"
-LABEL "maintainer"="Octocat <octocat@github.com">"
+LABEL "maintainer"="Octocat <octocat@github.com>"
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
